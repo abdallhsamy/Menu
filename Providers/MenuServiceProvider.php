@@ -3,6 +3,7 @@
 namespace Modules\Menu\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Arr;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 use Modules\Core\Events\BuildingSidebar;
 use Modules\Core\Events\LoadingBackendTranslations;
@@ -51,8 +52,8 @@ class MenuServiceProvider extends ServiceProvider
         );
 
         $this->app['events']->listen(LoadingBackendTranslations::class, function (LoadingBackendTranslations $event) {
-            $event->load('menu', array_dot(trans('menu::menu')));
-            $event->load('menu-items', array_dot(trans('menu::menu-items')));
+            $event->load('menu', Arr::dot(trans('menu::menu')));
+            $event->load('menu-items', Arr::dot(trans('menu::menu-items')));
         });
 
         app('router')->bind('menu', function ($id) {
