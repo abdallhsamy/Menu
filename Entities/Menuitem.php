@@ -2,8 +2,8 @@
 
 namespace Modules\Menu\Entities;
 
-use Dimsav\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
+use Astrotomic\Translatable\Translatable;
 use TypiCMS\NestableTrait;
 
 class Menuitem extends Model
