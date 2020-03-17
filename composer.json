@@ -1,5 +1,5 @@
 {
-  "name": "idavoll/menu-module",
+  "name": "capham/menu-module",
   "type": "asgard-module",
   "description": "Menu module for AsgardCMS. Handles all the menus.",
   "keywords": [
@@ -10,6 +10,10 @@
   ],
   "license": "MIT",
   "authors": [
+    {
+      "name": "Ca Pham",
+      "email": "capham89@gmail.com"
+    },
     {
       "name": "Nicolas Widart",
       "email": "info@asgardcms.com",
@@ -38,11 +42,6 @@
     "psr-4": {
       "Modules\\Menu\\": ".",
       "Modules\\": "Modules/"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "4.0.x-dev"
     }
   },
   "minimum-stability": "dev",
