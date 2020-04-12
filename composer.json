@@ -11,17 +11,15 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Ca Pham",
-      "email": "capham89@gmail.com"
-    },
-    {
-      "name": "Nicolas Widart",
-      "email": "info@asgardcms.com",
-      "role": "Developer"
-    },
-    {
       "name": "Abdallah Samy",
       "email": "abdallhsamy2011@gmail.com",
+      "role": "Developer"
+    }, {
+      "name": "Ca Pham",
+      "email": "capham89@gmail.com"
+    }, {
+      "name": "Nicolas Widart",
+      "email": "info@asgardcms.com",
       "role": "Developer"
     }
   ],
